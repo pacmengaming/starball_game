@@ -6,6 +6,7 @@ public class ClimbWall : MonoBehaviour
 {
 
     public Rigidbody rb;
+   
 
     private bool gravityIsOn = true;
    
