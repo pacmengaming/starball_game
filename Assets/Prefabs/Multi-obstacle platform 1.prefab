@@ -228,8 +228,11 @@ Transform:
   - {fileID: 1006637713347558835}
   - {fileID: 5749418904983512079}
   - {fileID: 6315210204686445537}
+<<<<<<< Updated upstream
   - {fileID: 7608140913557583757}
   - {fileID: 1978685584843976022}
+=======
+>>>>>>> Stashed changes
   - {fileID: 8143483616490913079}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -810,6 +813,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &5588604117422023232
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +910,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &6604077905712579771
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,7 +943,11 @@ Transform:
   m_LocalScale: {x: 20, y: 0.5, z: 5}
   m_Children: []
   m_Father: {fileID: 6734288438460208199}
+<<<<<<< Updated upstream
   m_RootOrder: 11
+=======
+  m_RootOrder: 7
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8642002302326563852
 MeshFilter:
