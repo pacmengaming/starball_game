@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClimbWall : MonoBehaviour
 {
+    public GameObject nc;
 
     public Rigidbody rb;
    
@@ -13,6 +14,11 @@ public class ClimbWall : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+    }
+
+    void Start()
+    {
+        nc = GameObject.FindWithTag("NoClimb");
     }
 
 
@@ -38,6 +44,8 @@ public class ClimbWall : MonoBehaviour
 
     void OnCollisionStay(Collision collision)
     {
+
+        
         Vector3 worldUp = Vector3.up;
 
         foreach(var C in collision.contacts)
@@ -47,7 +55,7 @@ public class ClimbWall : MonoBehaviour
 
             Debug.Log(angle);
 
-            if (angle > getMinClimbAngle() && angle < getMaxClimbAngle())
+            if (angle > getMinClimbAngle() && angle < getMaxClimbAngle() && collision.gameObject.tag == "Climb" )
             {
                 gravityIsOn = false;
             }
@@ -67,6 +75,10 @@ public class ClimbWall : MonoBehaviour
 
     void OnCollisionEnter (Collision collision)
     {
+
+        
+
+
         if (collisions.Contains(collision.gameObject) == false)
         {
             collisions.Add(collision.gameObject);
