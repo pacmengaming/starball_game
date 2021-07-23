@@ -2632,7 +2632,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 0}
+  m_BackGroundColor: {r: 0.13207549, g: 0.12148453, b: 0.12148453, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3039,7 +3039,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c635272416049b045962f8214d4236ac, type: 2}
+  - {fileID: 2100000, guid: 349d35d8b8e60cc4792e80040f0c2084, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3402,6 +3402,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 536777060773135727, guid: 13303f68c2ff8254a83002bb89548cc8, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 536777061130697365, guid: 13303f68c2ff8254a83002bb89548cc8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3586,16 +3590,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 66.505005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 66.505005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 66.505005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 80.3
+      value: 117.4
       objectReference: {fileID: 0}
     - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 129.7
+      value: 151.2536
       objectReference: {fileID: 0}
     - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -271.1
+      value: -178.5
       objectReference: {fileID: 0}
     - target: {fileID: 3690253683336221745, guid: 296308a608e656c44b115ae80e726c93, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3625,6 +3641,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3690253683336221759, guid: 296308a608e656c44b115ae80e726c93, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f32702b69bb31fa4d97a976e77fc7864, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 296308a608e656c44b115ae80e726c93, type: 3}
 --- !u!1001 &7132569802319619974

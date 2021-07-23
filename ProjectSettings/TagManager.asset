@@ -7,6 +7,12 @@ TagManager:
   - NoClimb
   - Climb
   - Checkpoint
+  - Enemy
+  - JumpPad
+  - Ground
+  - Regular
+  - Death
+  - Checkpoint2
   layers:
   - Default
   - TransparentFX

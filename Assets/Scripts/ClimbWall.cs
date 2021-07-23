@@ -53,7 +53,7 @@ public class ClimbWall : MonoBehaviour
             Vector3 dir = C.point - transform.position;
             float angle = Vector3.Angle(worldUp, dir);
 
-            Debug.Log(angle);
+            
 
             if (angle > getMinClimbAngle() && angle < getMaxClimbAngle() && collision.gameObject.tag == "Climb" )
             {
